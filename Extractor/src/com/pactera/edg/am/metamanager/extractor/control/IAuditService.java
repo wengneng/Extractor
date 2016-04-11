@@ -1,0 +1,31 @@
+/*
+ * Copyright 2009 by pactera.edg.am Corporation.
+ * Address:HePingLi East Street No.11 5-5, BeiJing, 
+ * 
+ * All rights reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * pactera.edg.am Corporation ("Confidential Information").  You
+ * shall not disclose such Confidential Information and shall use
+ * it only in accordance with the terms of the license agreement
+ * you entered into with pactera.edg.am.
+ */
+
+
+package com.pactera.edg.am.metamanager.extractor.control;
+
+/**
+ * 审核入库服务接口
+ *
+ * @author user
+ * @version 1.0  Date: Oct 12, 2009
+ *
+ */
+public interface IAuditService {
+
+	/**
+	 * 审核入库
+	 * @return　入库成功则返回true
+	 */
+	boolean operate();
+}
